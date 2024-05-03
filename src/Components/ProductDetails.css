@@ -1,0 +1,18 @@
+.image {
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+  cursor: zoom-in;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image img:hover {
+  opacity: 0;
+}
+.image img {
+  transition: opacity .5s;
+  display: block;
+  width: 100%;
+  background-color: white;
+}

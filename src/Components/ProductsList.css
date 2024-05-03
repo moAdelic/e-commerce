@@ -1,0 +1,17 @@
+.products-list .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+.products-list .container .card {
+  position: relative;
+  transition: .3s;
+}
+.products-list .container .card:hover {
+  background-color: #EEE;
+  box-shadow: 0 0 10px #DDD;
+}
+.products-list .container .details {
+  top: 15px;
+  right: 15px;
+}
